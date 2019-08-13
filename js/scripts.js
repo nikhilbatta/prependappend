@@ -29,4 +29,7 @@ $(document).ready(function(){
       $(this).remove();
     });
   });
+  $("h1").click(function(){
+    $("#webpage").after("<img src=img/walrus.jpeg>")
+  });
 });
